@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    background-color: rgb(211, 16, 16);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.curser{
+    transition:cubic-bezier(0.19, 1, 0.22, 1),1ms;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}

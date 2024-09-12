@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing:'border-box';
+    font-family: gilroy;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%; 
+    background-color: black;
+}
+
+/* .box{
+    background-color: red;
+    width: 250px;
+    height: 250px; 
+} */
+/* .box2{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+} */
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.center h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
